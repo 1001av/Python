@@ -12,10 +12,10 @@ for i in range (1,6,1) :
 # for i in l:
 #     print(i)
 
-# with tuppke
-# t = (1,2,3,4,5,6,8)
-# for i in t:
-#     print(i)
+# with tupple
+t = (1,2,3,4,5,6,8)# you can also use for loop with tupple, it will print all the elements of the tupple one by one
+for i in t:
+    print(i)
 
 # with strings
 s = "Akhil"

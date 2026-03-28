@@ -7,7 +7,7 @@ print(type(a))
 print(a[2])
 print(a[-5]) # negative indexing
 print(a[1:4]) # slicing in tuple
-print(a.count(2))
+print(a.count(2)) # count will give the number of times a specific element is written in a tupple
 print(a.index(2))#  index will give the index of specific element, but if two same element are written then 
 # it shows the index of the 1st occuring element only
 
@@ -28,8 +28,12 @@ print(t1 * 3)  # (1, 2, 1, 2, 1, 2)
 # Built-in Functions
 # len(t) → length of tuple
 # max(t) / min(t) → largest/smallest element (works if elements are comparable)
+x = (1,4,7,9,5,8)
+print(max(x))
 # sum(t) → sum of numeric elements
+print(sum(x))
 # sorted(t) → returns a sorted list (not a tuple)
+print(sorted(x))
 # tuple.count(x) → count occurrences
 # tuple.index(x) → find index of first occurrence
 

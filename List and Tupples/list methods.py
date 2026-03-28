@@ -8,7 +8,7 @@ friends.append("akhil") # append adds the new element in the last of the list
 print(friends)
 
 l1 = [3, 5, 7, 2, 9, 1]
-# l1.sort()
+l1.sort()
 # l1.reverse()
 # l1.insert(3, 567)  #inserting at an index
 # l1.pop(2) # pop out any index
